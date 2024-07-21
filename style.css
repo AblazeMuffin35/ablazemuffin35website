@@ -76,6 +76,7 @@ body
     cursor: pointer;
     transition: all 0.3s;
     user-select: none;
+    text-decoration: none;
 }
 
 .start-button:hover{
@@ -95,6 +96,16 @@ body
       background-color: #4c4a56;
 }
 
+.disabled-link-card{
+      background-color: #2c2a36;
+      color: white;
+      transition: all 0.3s;
+      cursor: not-allowed;
+      border-radius: 10px;
+      user-select: none;
+      opacity: 25%;
+}
+
 ::-webkit-scrollbar {
       display: none;
 }
@@ -107,4 +118,61 @@ body
       padding-left: 6px;
       padding-right: 6px;
       margin-left: 3px;
+}
+
+.category-header {
+      padding: 30px;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      position: relative;
+      background-size: 100% 100%;
+}
+
+.category-header p{
+      font-size: 20px;
+}
+
+.element{
+      border-radius: 10px;
+      border: white 2px solid;
+      color: white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 3px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 25px;
+      font-size: 20px;
+      user-select: none;
+}
+
+.element > div{
+      position: relative;
+      margin: 0 auto;
+      text-align: left;
+
+      margin: 10px;
+}
+
+.element > div > div{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      text-align: right;
+}
+
+.basic-button{
+      text-decoration: none;
+      color: white;
+      background-color: dodgerblue;
+      padding: 15px;
+      border-radius: 10px;
+      transition: all 0.3s;
+      cursor: pointer;
+}
+
+.basic-button:hover{
+      background-color: #57A8FA;
 }
