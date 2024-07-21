@@ -36,7 +36,7 @@ body
       background-color: #4c4a56;
       color: white;
       float: left;
-      padding: 10px
+      padding: 14px
 }
   
 .header {
@@ -57,7 +57,8 @@ body
 {
       margin-left: 150px;
       margin-right: 150px;
-      margin-top: 20px;
+      margin-top: 25px;
+      margin-bottom: 25px;
       font-size: 20px;
       color: white;
 }
@@ -65,7 +66,7 @@ body
 .start-button{
     padding: 10px;
     color: white;
-    background: none;
+    background-color: #ffffff11;
     border-radius: 5px;
     border-color: white;
     border-width: 3.5px;
@@ -77,6 +78,5 @@ body
 }
 
 .start-button:hover{
-    border-color: lightgray;
-    color: lightgray;
+      background-color: #ffffff33;
 }
