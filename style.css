@@ -67,11 +67,9 @@ body
 .start-button{
     padding: 10px;
     color: white;
-    background-color: #ffffff11;
-    border-radius: 5px;
-    border-color: white;
-    border-width: 3.5px;
-    border-style: solid;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
     margin-right: 10px;
     cursor: pointer;
     transition: all 0.3s;
@@ -135,12 +133,12 @@ body
 
 .element{
       border-radius: 10px;
-      border: white 2px solid;
+      border: #4c4a56 3px solid;
       color: white;
       padding-top: 15px;
       padding-bottom: 15px;
       padding-left: 15px;
-      padding-right: 3px;
+      padding-right: 1px;
       margin-left: 50px;
       margin-right: 50px;
       margin-bottom: 25px;
@@ -152,7 +150,6 @@ body
       position: relative;
       margin: 0 auto;
       text-align: left;
-
       margin: 10px;
 }
 
@@ -175,4 +172,14 @@ body
 
 .basic-button:hover{
       background-color: #57A8FA;
+}
+
+.basic-text{
+      text-decoration: none;
+      color: white;
+      background-color: #16151e;
+      padding: 15px;
+      border-radius: 10px;
+      user-select: text;
+      cursor: text;
 }
