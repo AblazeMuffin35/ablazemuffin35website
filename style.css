@@ -21,7 +21,7 @@ body
       float: right;
       color: #f2f2f2;
       text-align: center;
-      padding: 14px 16px;
+      padding: 10px 10px;
       text-decoration: none;
       font-size: 17px;
       transition: all 0.3s;
@@ -34,20 +34,25 @@ body
   
 .topnav a.active 
 {
-      background-color: #1e88e5;
+      background-color: dodgerblue;
       color: white;
       float: left;
-      padding: 14px
+      padding: 10px;
 }
-  
+
+.topnav a.active:hover
+{
+      background-color: hsl(210, 100%, 70%);
+}
+
 .header {
-      padding: 80px;
+      padding: 125px;
       text-align: center;
-      background: url("header_image_filter.jpg")no-repeat;
+      background: url("header_background.png") no-repeat;
+      background-size: 100% 100%;
       color: white;
       font-size: 30px;
       position: relative;
-      background-size: 100% 100%;
 }
 
 .header p{
@@ -116,18 +121,15 @@ body
       padding-left: 6px;
       padding-right: 6px;
       margin-left: 3px;
+      user-select: none;
 }
 
 .category-header {
-      padding: 30px;
+      padding: 20px;
       text-align: center;
       color: white;
-      font-size: 30px;
       position: relative;
       background-size: 100% 100%;
-}
-
-.category-header p{
       font-size: 20px;
 }
 
@@ -161,9 +163,9 @@ body
 }
 
 .basic-button{
+      background-color: dodgerblue;
       text-decoration: none;
       color: white;
-      background-color: dodgerblue;
       padding: 15px;
       border-radius: 10px;
       transition: all 0.3s;
@@ -171,7 +173,17 @@ body
 }
 
 .basic-button:hover{
-      background-color: #57A8FA;
+      background-color: hsl(210, 100%, 70%);
+}
+
+.disabled-button{
+      background-color: slategray;
+      opacity: 50%;
+      text-decoration: none;
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
+      transition: all 0.3s;
 }
 
 .basic-text{
@@ -182,4 +194,16 @@ body
       border-radius: 10px;
       user-select: text;
       cursor: text;
+}
+
+h1{
+      font-size: 50px;
+      font-weight: 750;
+}
+
+.mini-header{
+      text-align: center;
+      color: white;
+      position: relative;
+      font-size: 20px;
 }
